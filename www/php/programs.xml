@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programs>
+	<program id="1" type="static">
+		<name value="Test Mode" />
+		<channel id="0">
+			<trigger value="0" />
+			<function value="0" />
+			<idle value="0" />
+		</channel>
+		<default>
+			<trigger value="0" />
+			<function value="0.6" />
+			<idle value="0.2" />
+		</default>
+		<default>
+			<trigger value="1" />
+			<function value="0" />
+			<idle value="1" />
+		</default>
+		<default>
+			<trigger value="2" />
+			<function value="0.8" />
+			<idle value="0.2" />
+		</default>
+		<default>
+			<trigger value="0" />
+			<function value="0.7" />
+			<idle value="0.1" />
+		</default>
+		<default>
+			<trigger value="2" />
+			<function value="1" />
+			<idle value="0" />
+		</default>
+	</program>
+</programs>
