@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!doctype html>
 <html lang="cz">
 	<head>
@@ -33,7 +29,12 @@
 					<tbody>
 						<tr>
 							<td id="mode_list_td">
-								<div id="mode_list"></div>
+								<div id="mode_list">
+									<h4>Active Modes:</h4>
+									<ul id="active"></ul>
+									<h4>Disabled Modes:</h4>
+									<ul id="disabled"></ul>
+								</div>
 							</td>
 							<td>
 								<div id="toolbar">

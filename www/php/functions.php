@@ -8,3 +8,8 @@ if(isset($_POST['mode'])){
 	fwrite($xml_file, '</programs>');
 	fclose($xml_file);
 }
+
+if(isset($_POST['load'])){
+	$xml_name = "programs.xml";
+	echo file_get_contents ($xml_name);
+}

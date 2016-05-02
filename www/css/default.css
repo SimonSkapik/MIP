@@ -228,6 +228,10 @@ body{
 	background:#123456;
 }
 
+td{
+	vertical-align:top;
+}
+
 .disp_inline{
 	display:inline;
 }
