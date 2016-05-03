@@ -232,6 +232,10 @@ td{
 	vertical-align:top;
 }
 
+.pointer{
+	cursor:pointer;
+}
+
 .disp_inline{
 	display:inline;
 }
@@ -249,16 +253,27 @@ td{
 	border:1px solid #123456;
 }
 
+.change{
+	float:left;
+	margin:10px;
+	height:190px;
+	padding:10px;
+	border-radius:3px;
+	border:1px solid #123456;
+}
+
 .channel select{
 	width:100%;
 }
 
-.channel h3{
+.channel h3,
+.change h3{
 	line-height:1.8em;
 	margin:0;
 }
 
-.channel label{
+.channel label,
+.change label{
 	line-height:1.8em;
 }
 
@@ -269,6 +284,10 @@ td{
 	width:0px;
 	border-radius:3px;
 	border:2px solid #123456;
+}
+
+.delete_change{
+	float: right;
 }
 
 #header{
@@ -316,6 +335,11 @@ td{
 	border-radius:3px;
 	background:#fff;
 	border-bottom:1px solid #123456;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
 }
 
 #mode_info{

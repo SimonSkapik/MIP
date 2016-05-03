@@ -1,36 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <programs>
-	<program active="true" id="1" type="static">
-		<name value="Test Mode" />
+<program active="true" id="1" type="static">
+		<name value="Test"></name>
 		<default>
-			<trigger value="0" />
-			<function value="1" />
-			<idle value="0" />
+			<trigger value="1"></trigger>
+			<function value="0"></function>
+			<idle value="0"></idle>
 		</default>
 		<channel id="1">
-			<trigger value="0" />
-			<function value="1" />
-			<idle value="0" />
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
 		</channel>
 		<channel id="2">
-			<trigger value="0" />
-			<function value="1" />
-			<idle value="0" />
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
 		</channel>
 		<channel id="3">
-			<trigger value="0" />
-			<function value="1" />
-			<idle value="0" />
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
 		</channel>
 		<channel id="4">
-			<trigger value="0" />
-			<function value="1" />
-			<idle value="0" />
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
 		</channel>
 		<channel id="5">
-			<trigger value="0" />
-			<function value="1" />
-			<idle value="0" />
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
 		</channel>
+	</program><program active="false" id="2" type="static">
+		<name value="Osvětlení"></name>
+		<default>
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
+		</default>
+		<channel id="1">
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
+		</channel>
+		<channel id="2">
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
+		</channel>
+		<channel id="3">
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
+		</channel>
+		<channel id="4">
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
+		</channel>
+		<channel id="5">
+			<trigger value="0"></trigger>
+			<function value="1"></function>
+			<idle value="0"></idle>
+		</channel>
+	</program>	<program active="true" id="3" type="timeframe">
+		<name value="qwer" />
+		<framelength value="5" />
+		<period value="10" />
+		<default>
+			<function value="0.6" />
+		<default>
+		<change time="3">
+			<channel id="1">
+				<function value="0.2" />
+			</channel>
+			<channel id="2">
+				<function value="0.5" />
+			</channel>
+			<channel id="3">
+				<function value="0.9" />
+			</channel>
+			<channel id="4">
+				<function value="0" />
+			</channel>
+			<channel id="5">
+				<function value="0" />
+			</channel>
+		</change>
 	</program>
 </programs>
